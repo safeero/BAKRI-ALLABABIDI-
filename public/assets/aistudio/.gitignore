@@ -1,1 +1,3 @@
-*
+- name: Install Dependencies
+  working-directory: ./my_app # أضف مسار مجلد التطبيق هنا
+  run: flutter pub get
